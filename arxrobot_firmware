@@ -31,7 +31,7 @@ unsigned long timer;        // unsigned 32-bit
 
 boolean collisionDetection = FALSE;
 
-SoftwareSerial Serial1(11, 10); // RX = D11, TX = D10
+SoftwareSerial Serial1(10, 11); // RX = D11, TX = D10
  
 void setup(){
   Serial.begin(9600);      // legacy rovers operated at 57600
